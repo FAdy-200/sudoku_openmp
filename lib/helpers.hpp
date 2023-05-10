@@ -2,5 +2,5 @@
 #include <cstring>
 #include <iostream>
 
-int CheckRowsAndColumns(int* grid, int n, int rowsOrColumns);
-int CheckBoxes(int* grid, int n);
+bool CheckRowsAndColumns(int* grid, int n, int rowsOrColumns);
+bool CheckBoxes(int* grid, int n);
